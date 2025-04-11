@@ -22,6 +22,9 @@ vendor/etc/audconf/OPEN/Handset_cal.acdb
 vendor/lib/libsnpe_dsp_domains_v2.so
 vendor/lib/libSNPE.so
 vendor/lib/libsnpe_wrapper.so
+vendor/lib64/libSNPE.so
+vendor/lib64/libsnpe_dsp_domains_v2.so
+vendor/lib64/libsnpe_wrapper.so
 
 # Camera
 vendor/lib/camera/components/com.samsung.node.smooth_transition.so
@@ -51,6 +54,8 @@ vendor/lib/camera/com.samsung.tuned.lsi_s5kgw1p.bin
 vendor/lib64/camera/com.samsung.tuned.lsi_s5kgw1p.bin
 vendor/lib/camera/com.samsung.tuned.sony_imx682.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin
+vendor/lib64/camera/components/com.samsung.node.smooth_transition.so
+vendor/lib64/camera/components/com.wrapper.stats.aec.so
 vendor/lib/camera/ois_mcu_stm32g_fw.bin
 vendor/lib/camera/uw_dual_calibration.bin
 vendor/lib/hw/com.samsung.chi.override.so
@@ -58,6 +63,7 @@ vendor/lib64/hw/com.samsung.chi.override.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib/libsec2qc_conversion.so
+vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so
 vendor/lib64/libsec2qc_conversion.so
 
 # Fingerprint
